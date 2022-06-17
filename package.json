@@ -9,17 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Jberestian?tab=repositories"
   },
   "keywords": [],
   "author": "Yevhen Berestian <jberestian@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
-  },
   "dependencies": {
     "modern-normalize": "^1.1.0",
-    "normalize-scss": "^7.0.1",
     "notiflix": "^3.2.5"
   },
   "devDependencies": {
@@ -30,4 +26,3 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
-
