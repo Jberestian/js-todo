@@ -1,6 +1,14 @@
 <div class="container">
   <form action="" class="to__do-form js-form">
-    <input type="text" class="form__input js-input" />
-    <button class="form__btn-add">Add</button>
+    <label for="new-task">Add new Task</label>
+    <input
+      type="text"
+      class="form__input js-input"
+      id="new-task"
+      placeholder="Add new task..."
+    />
+    <button class="form__btn-add" value="add" type="submit">Add</button>
+    <ul class="todo__container"></ul>
+    <button class="todo__remove-all">Remove All Task</button>
   </form>
 </div>
