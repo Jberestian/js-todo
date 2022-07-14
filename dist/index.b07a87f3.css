@@ -156,7 +156,18 @@ a {
 }
 
 body {
-  background-color: #002aff;
+  background-color: #00a2ff;
+  font-family: Titan One, cursive;
+}
+
+.to__do-form {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.form__label {
+  color: bisque;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */

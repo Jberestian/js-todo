@@ -503,6 +503,12 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
+const formEl = document.querySelector(".js-form");
+const inputEl = document.querySelector(".js-input");
+const outputEl = document.querySelector(".js-output");
+inputEl.addEventListener("input", (event)=>{
+    outputEl.textContent = event.currentTarget.value;
+});
 
 },{}]},["hGw59","1SICI"], "1SICI", "parcelRequired7c6")
 

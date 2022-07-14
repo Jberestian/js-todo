@@ -12,10 +12,11 @@
   <body>
     <div class="container">
   <form action="" class="to__do-form js-form">
-    <label for="new-task">Add new Task</label>
-    <input type="text" class="form__input js-input" id="new-task" placeholder="Add new task...">
+    <label for="new-task" class="form__label">Add new Task</label>
+    <input type="text" name="item" class="form__input js-input" id="new-task" placeholder="Add new task...">
+    <p class="text">&#9998<span class="output js-output"></span></p>
     <button class="form__btn-add" value="add" type="submit">Add</button>
-    <ul class="todo__container"></ul>
+    <!-- <ul class="todo__container"></ul> -->
     <button class="todo__remove-all">Remove All Task</button>
   </form>
 </div>
