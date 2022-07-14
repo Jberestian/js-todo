@@ -1,5 +1,6 @@
 body {
   font-family: 'DM Sans', sans-serif;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
   font-family: 'Titan One', cursive;
   background-color: rgb(0, 162, 255);
 }
@@ -13,43 +14,50 @@ body {
 }
 
 .container {
+  margin-top: 30px;
 }
 .to {
-  // .to__do-form
-
   &__do-form {
   }
 }
-.js-form {
-}
-.form {
-  // .form__label
 
+.form {
   &__label {
     color: bisque;
+    padding-bottom: 10px;
   }
-
-  // .form__input
 
   &__input {
-  }
-
-  // .form__btn-add
-
-  &__btn-add {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
   }
 }
-.js-input {
-}
+
 .text {
 }
 .output {
+  font-size: 20px;
+  padding-left: 5px;
 }
-.js-output {
-}
-.todo {
-  // .todo__remove-all
 
-  &__remove-all {
-  }
+.btn-wrapper {
+  padding-top: 10px;
+}
+
+.form__btn-add,
+.todo__remove-btn {
+  height: 38px;
+  width: 166px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: #070707;
 }
